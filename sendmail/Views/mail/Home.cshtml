@@ -1,0 +1,27 @@
+﻿
+<html>
+
+   
+ 
+<body>
+    <div style="margin-left:650px;margin-top:100px;"><h1>Mail Box</h1></div>
+    <i style="margin-left:620px">-----Send your mail here----</i><br />
+<br /><button onclick="document.getElementById('id01').style.display='block'" class="btn btn-info" style="margin-left:580px;width:300px;">New Mail</button>
+<div id="id01" class="modal">
+   <form method="post" class="modal-content animate" >
+       <span onclick="document.getElementById('id01').style.display='none'" class="close" >&times;</span>
+       <br /><br /><div class="container">
+    <input type="email" placeholder="To" name="recievermail"  class="form-control" /><br />
+    <br /><input type="text" placeholder="Title" name="Title" style="height:40px" class="form-control"/><br />
+    <textarea placeholder="subject" name="subject" class="form-control" rows="5" ></textarea>
+ 
+    <br /><input type="submit" value="send mail" class="btn btn-info"style="margin-left:450px;width:300px" />
+    </div>
+    </form>
+    
+</div>
+<br />
+<div style="margin-left:650px">@ViewData["send"]</div>
+</body>
+</html>
+

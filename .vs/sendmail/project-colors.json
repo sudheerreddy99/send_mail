@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b9421cbf-33bd-4a16-a10f-43920f6ceab0": {
+      "ProjectGuid": "b9421cbf-33bd-4a16-a10f-43920f6ceab0",
+      "DisplayName": "sendmail",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
